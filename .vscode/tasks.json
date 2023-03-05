@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "go",
+			"label": "go: test package",
+			"command": "test",
+			"args": [
+				"${fileDirname}"
+			],
+			"problemMatcher": [
+				"$go"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "cd c:\\Users\\M-SK\\Documents\\Programming Projects\\reboot01\\eightqueens_reboot01; go test ${fileDirname}"
+		}
+	]
+}
